@@ -1,0 +1,111 @@
+.container {
+  display:grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5vh 20vh 40vh 30vh 5vh;
+  grid-template-areas:
+    'header '
+    'insta'
+    'form'
+    'blank'
+    'footer';
+}
+.test {
+  border:2px solid black;
+}
+.header {
+  grid-area:header;
+}
+.footer {
+  grid-area:footer;
+}
+.insta {
+  grid-area:insta;
+}
+.blank {
+  grid-area:blank;
+}
+.form {
+  grid-area:form;
+}
+.itext {
+  color:rgb(207, 207, 207);
+  font-family:sans-serif;
+  text-align:center;
+  font-size:50%;
+}
+.itext:hover{
+  color:black
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+  padding:1vw;
+  margin-top:1vw;
+  margin-bottom:1vw;
+}
+.redcenter {
+  display: block;
+  border-color:red;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+  padding:1vw;
+  margin-top:1vw;
+  margin-bottom:1vw;
+}
+.form1 {
+  margin:auto;
+}
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.submitbutton {
+  font: bold 80% sans-serif;
+  color:white;
+  background-color:rgb(28, 178, 252);
+  border:none;
+}
+.submitbutton:hover {
+  background-color:rgb(0, 169, 252);
+}
+.ritext {
+  color:red;
+  font-family:sans-serif;
+  text-align:center;
+  font-size:70%;
+}
+.rbtext {
+  color:rgb(207, 207, 207);
+  font-family:sans-serif;
+  text-align:center;
+  font-size:80%;
+}
