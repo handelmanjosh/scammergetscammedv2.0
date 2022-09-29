@@ -1,4 +1,9 @@
 # scammergetscammedv2.0
+
+
+LICENSE:
+**No one is given permission to use this under any terms
+Do not ask for this to be changed**
 ah yes very real website
 
 Some kid stole my friend's instagram account so I got it back lmao. I actually can't believe he fell for this.
